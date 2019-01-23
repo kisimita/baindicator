@@ -14,19 +14,17 @@ Pod::Spec.new do |s|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-  s.platform = :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '8.1'
   s.name         = "BAIndicator"
   s.version      = "0.0.1"
-  s.summary      = "A short description of BAIndicator."
+  s.summary      = "Activity indicator follow Bosch UI Design Guideline "
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "Create a indicator for iOS application, this library is write in swift 4.x"
 
   s.homepage     = "https://github.com/kisimita/baindicator"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -64,8 +62,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.1"
+  # s.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
