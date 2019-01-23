@@ -20,4 +20,5 @@ let baIndicator = BAIndicator(frame: CGRect(x: self.view.frame.size.width/2 - wi
 self.view.addSubview(baIndicator)
 baIndicator.startAmination()
 ```
-
+## License
+BAIndicator is released under the MIT license.
